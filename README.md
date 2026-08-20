@@ -58,10 +58,6 @@ A recommendation system designed to suggest relevant products to users based on 
 
 **Technologies:** Python, Machine Learning, Pandas, Scikit-learn
 
-### 3. Women Safety / Violence Detection System
-A safety-focused application designed to detect potentially dangerous situations and provide emergency assistance features.
-
-**Technologies:** Python, AI/ML, Voice Detection, Web Technologies
 
 ## 📜 Certifications
 
