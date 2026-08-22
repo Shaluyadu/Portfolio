@@ -1478,3 +1478,58 @@ a {
     display: flex !important;
   }
 }
+/* =========================
+   FINAL MOBILE NAVBAR
+========================= */
+
+@media (max-width: 768px) {
+
+  .navbar {
+    padding: 10px 14px;
+  }
+
+  .navbar-container {
+    width: 100%;
+    max-width: 100%;
+    padding: 10px 4px;
+    gap: 8px;
+  }
+
+  .logo {
+    font-size: 21px;
+  }
+
+  /* Hide normal links */
+  .nav-links {
+    display: none !important;
+  }
+
+  /* Show Let's Talk */
+  .nav-button {
+    display: inline-block !important;
+    margin-left: auto;
+    padding: 8px 12px;
+    font-size: 12px;
+    border-radius: 7px;
+  }
+
+  /* Hamburger */
+  .menu-toggle {
+    display: flex !important;
+    font-size: 25px;
+    padding: 3px;
+    margin-left: 2px;
+  }
+
+  /* Dropdown */
+  .nav-links.mobile-open {
+    display: flex !important;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    background: white;
+  }
+}
