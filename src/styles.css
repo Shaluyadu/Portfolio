@@ -1459,3 +1459,22 @@ a {
     height: 350px;
   }
 }
+/* FINAL MOBILE NAVBAR FIX */
+
+@media (max-width: 768px) {
+  .nav-links {
+    display: none !important;
+  }
+
+  .nav-links.mobile-open {
+    display: flex !important;
+  }
+
+  .nav-button {
+    display: none !important;
+  }
+
+  .menu-toggle {
+    display: flex !important;
+  }
+}
